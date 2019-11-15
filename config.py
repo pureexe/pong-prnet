@@ -1,0 +1,13 @@
+#Windows Setting
+WINDOW_TITLE = 'Pong - Face Control - VisionLab@VISTEC'
+WINDOW_HEIGHT = 360
+WINDOW_WIDTH =  640
+
+# Camera Setting
+CAMERA_HEIGHT = 360
+CAMERA_WIDTH = 640
+
+#Game Settings
+BOARD_WIDTH = 40
+BOARD_HEIGHT = 30
+PADDLE_HEIGHT = 4

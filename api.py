@@ -98,7 +98,7 @@ class PRN:
         else:
             detected_faces = self.dlib_detect(image)
             if len(detected_faces) == 0:
-                print('warning: no detected face')
+                #print('warning: no detected face')
                 return None
 
             d = detected_faces[0].rect ## only use the first detected face (assume that each input image only contains one face)
