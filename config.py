@@ -2,8 +2,8 @@
 WINDOW_TITLE = 'Pong - Face Control - VisionLab@VISTEC'
 
 """ Camera Setting """
-CAMERA_HEIGHT = 480
-CAMERA_WIDTH = 640
+CAMERA_HEIGHT = 480 #int(480 /2)
+CAMERA_WIDTH = 640 #int(640 / 2)
 
 """ Game Settings """
 BOARD_WIDTH = 40

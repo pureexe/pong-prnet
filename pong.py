@@ -63,6 +63,7 @@ while(True):
     frame[:,half_width:], pose_right = head_pose(frame[:,half_width:])
 
     cv2.line(frame, (half_width, 0), (half_width, config.CAMERA_HEIGHT), (0,255,0), 2)
+    frame = cv2.resize(frame,(frame.shape[1]*2,frame.shape[0]*2))
     # Pong Game Control
     if is_play_game:
         pong_game.make_move(speed_step(pose_left[1]),speed_step(pose_right[1]))
